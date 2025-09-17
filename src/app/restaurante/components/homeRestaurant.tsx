@@ -24,8 +24,11 @@ export default function HomeRestaurant() {
             </button>
           </a>
           <a href="">
-            <button className="flex items-center cursor-pointer text-gray-800 rounded-md p-2 shadow-[0px_0px_25px_0.5px] shadow-gray-500 hover:opacity-90 active:opacity-80">
-              <Phone className="mr-1 size-5 bg-amber-500 rounded-sm p-0.5 text-white shadow-[0px_0px_10px_1px] shadow-amber-600" />
+            <button className="bg-white flex items-center cursor-pointer text-gray-800 rounded-md p-2 shadow-[0px_0px_25px_0.5px] shadow-gray-500 hover:opacity-90 active:opacity-80">
+              <Phone
+                className="mr-1 size-5 bg-amber-500 rounded-sm p-0.5 text-white shadow-[0px_0px_10px_1px] shadow-amber-600"
+                fill="currentColor"
+              />
               <span className="text-sm"> (11) 98661-9079</span>
             </button>
           </a>
