@@ -6,10 +6,10 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full p-20 pt-5">
+    <header className="w-full p-20 pt-5 pb-3 top-0 sticky bg-bg z-3 shadow-2xs">
       <nav>
         <div className=" hidden w-full sm:flex items-center justify-between">
-          <p className="text-amber-600 flex font-bold items-center">
+          <p className="text-amber-400 flex font-bold items-center">
             <Hamburger /> <span className="text-2xl">FOOD</span>
           </p>
 
@@ -32,7 +32,7 @@ export default function Header() {
           </ul>
         </div>
         <div className="mt-1.5 flex sm:hidden flex-col items-center">
-          <i className="text-amber-600 flex font-bold">
+          <i className="text-amber-400 flex font-bold">
             <Hamburger /> FOOD
           </i>
 
@@ -59,7 +59,7 @@ export default function Header() {
               <a>Avaliações</a>
             </li>
             <li className="cursor-pointer p-1 mt-3">
-              <button className="cursor-pointer text-gray-100 bg-amber-500 rounded-md p-1 shadow-[0px_0px_20px_1px] shadow-amber-600 hover:opacity-90 active:opacity-80">
+              <button className="cursor-pointer text-gray-100 bg-amber-400 rounded-md p-1 shadow-[0px_0px_20px_1px] shadow-amber-400 hover:opacity-90 active:opacity-80">
                 Peça Aqui
               </button>
             </li>
