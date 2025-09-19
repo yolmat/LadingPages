@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-amber-400 w-full h-full">
+    <footer className="bg-amber-400 w-full h-full scroll">
       <Image src={waves} alt="waves" className="w-full" />
       <div>
         <span className="flex flex-col gap-3 md:gap-0 md:flex-row items-center justify-center md:justify-between p-20 pt-5 pb-10">
