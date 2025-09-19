@@ -16,12 +16,18 @@ export default function Footer() {
                 <Github />
               </button>
             </Link>
-            <Link href="">
+            <Link
+              href="https://www.linkedin.com/in/mateus-saraiva/"
+              target="_blank"
+            >
               <button className="bg-bg cursor-pointer rounded-sm shadow-[0px_0px_10px_1px] shadow-gray-400 p-1 hover:shadow-[0px_0px_10px_2px]">
                 <Linkedin />
               </button>
             </Link>
-            <Link href="">
+            <Link
+              href="https://www.instagram.com/mateusaraiva03?igsh=enY3Ync5ejJzY2hv"
+              target="_blank"
+            >
               <button className="bg-bg cursor-pointer rounded-sm shadow-[0px_0px_10px_1px] shadow-gray-400 p-1 hover:shadow-[0px_0px_10px_2px]">
                 <Instagram />
               </button>
